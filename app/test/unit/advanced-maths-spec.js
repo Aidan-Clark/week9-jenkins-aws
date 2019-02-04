@@ -13,7 +13,7 @@ describe('AdvancedMaths', function() {
     });
 
     it('should return 55 when 10 is entered', function() {
-      expect(AdvancedMaths.fibonacci(8)).to.equal(55);
+      expect(AdvancedMaths.fibonacci(10)).to.equal(55);
     });
 
     it('should return null when a negative number is entered', function() {
